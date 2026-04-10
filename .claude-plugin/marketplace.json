@@ -14,6 +14,30 @@
       "category": "development"
     },
     {
+      "name": "claude-code-setup",
+      "description": "Analyze codebases and recommend tailored Claude Code automations such as hooks, skills, MCP servers, and subagents.",
+      "source": "./plugins/claude-code-setup",
+      "category": "development"
+    },
+    {
+      "name": "claude-md-management",
+      "description": "Tools to maintain and improve CLAUDE.md files - audit quality, capture session learnings, and keep project memory current.",
+      "source": "./plugins/claude-md-management",
+      "category": "development"
+    },
+    {
+      "name": "code-review",
+      "description": "Automated code review for pull requests using multiple specialized agents with confidence-based scoring",
+      "source": "./plugins/code-review",
+      "category": "development"
+    },
+    {
+      "name": "code-simplifier",
+      "description": "Agent that simplifies and refines code for clarity, consistency, and maintainability while preserving functionality",
+      "source": "./plugins/code-simplifier",
+      "category": "development"
+    },
+    {
       "name": "csharp-lsp",
       "description": "C# language server for code intelligence",
       "source": "./plugins/csharp-lsp",
@@ -30,9 +54,21 @@
       "category": "development"
     },
     {
+      "name": "feature-dev",
+      "description": "Comprehensive feature development workflow with specialized agents for codebase exploration, architecture design, and quality review",
+      "source": "./plugins/feature-dev",
+      "category": "development"
+    },
+    {
       "name": "gopls-lsp",
       "description": "Go language server for code intelligence and refactoring",
       "source": "./plugins/gopls-lsp",
+      "category": "development"
+    },
+    {
+      "name": "hookify",
+      "description": "Easily create hooks to prevent unwanted behaviors by analyzing conversation patterns",
+      "source": "./plugins/hookify",
       "category": "development"
     },
     {
@@ -63,6 +99,24 @@
       "name": "pyright-lsp",
       "description": "Python language server (Pyright) for type checking and code intelligence",
       "source": "./plugins/pyright-lsp",
+      "category": "development"
+    },
+    {
+      "name": "ralph-loop",
+      "description": "Continuous self-referential AI loops for interactive iterative development, implementing the Ralph Wiggum technique. Run Claude in a while-true loop with the same prompt until task completion.",
+      "source": "./plugins/ralph-loop",
+      "category": "development"
+    },
+    {
+      "name": "security-guidance",
+      "description": "Security reminder hook that warns about potential security issues when editing files, including command injection, XSS, and unsafe code patterns",
+      "source": "./plugins/security-guidance",
+      "category": "development"
+    },
+    {
+      "name": "session-report",
+      "description": "Generate an explorable HTML report of Claude Code session usage (tokens, cache, subagents, skills, expensive prompts) from ~/.claude/projects transcripts.",
+      "source": "./plugins/session-report",
       "category": "development"
     }
   ]
