@@ -60,6 +60,12 @@
       "category": "development"
     },
     {
+      "name": "frontend-design",
+      "description": "Frontend design skill for UI/UX implementation",
+      "source": "./plugins/frontend-design",
+      "category": "development"
+    },
+    {
       "name": "gopls-lsp",
       "description": "Go language server for code intelligence and refactoring",
       "source": "./plugins/gopls-lsp",
